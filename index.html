@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="pa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ਪਿੰਡ ਦਾ ਦੇਸੀ ਘਿਓ</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff3cd;
+  color: #294323;
+}
+header {
+  background: #24532c;
+  color: white;
+  text-align: center;
+  padding: 22px;
+}
+.hero {
+  text-align: center;
+  padding: 35px 15px;
+  background: linear-gradient(135deg,#f5c94d,#fff3cd,#d9e9bd);
+}
+.hero img {
+  width: 90%;
+  max-width: 500px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px #6b541c55;
+}
+h2 { color: #35612b; }
+button {
+  background: #28733a;
+  color: white;
+  border: 0;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.product {
+  background: white;
+  border: 2px solid #e4bd4f;
+  border-radius: 15px;
+  padding: 22px;
+  text-align: center;
+  width: 230px;
+}
+.price { color: #a56d00; font-size: 24px; font-weight: bold; }
+footer {
+  background: #24532c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>ਪਿੰਡ ਦਾ ਦੇਸੀ ਘਿਓ 🧈</h1>
+  <p>ਤਾਜ਼ਗੀ • ਗੁਣਵੱਤਾ • ਭਰੋਸਾ</p>
+</header>
+
+<section class="hero">
+  <h2>ਸ਼ੁੱਧ ਦੇਸੀ ਘਿਓ</h2>
+  <p>ਆਪਣੇ ਪਰਿਵਾਰ ਲਈ ਦੇਸੀ ਸੁਆਦ ਚੁਣੋ।</p>
+  <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=1000&q=80"
+       alt="ਦੇਸੀ ਘਿਓ ਦੀ ਤਸਵੀਰ"
+       onerror="this.style.display='none';document.getElementById('fallback').style.display='block'">
+  <p id="fallback" style="display:none;background:#fff0bd;padding:20px">
+    🧈 🫙 ਸੁਨਹਿਰੀ ਦੇਸੀ ਘਿਓ
+  </p>
+  <p><a href="#products"><button>ਹੁਣੇ ਖਰੀਦੋ</button></a></p>
+</section>
+
+<h2 style="text-align:center">ਸਾਡੇ ਉਤਪਾਦ</h2>
+<section class="products" id="products">
+  <div class="product">
+    <div style="font-size:65px">🫙</div>
+    <h3>ਦੇਸੀ ਘਿਓ 500 ਗ੍ਰਾਮ</h3>
+    <p class="price">₹800</p>
+    <button onclick="alert('500 ਗ੍ਰਾਮ ਘਿਓ ਚੁਣਿਆ ਗਿਆ')">ਆਰਡਰ ਕਰੋ</button>
+  </div>
+  <div class="product">
+    <div style="font-size:65px">🫙</div>
+    <h3>ਦੇਸੀ ਘਿਓ 1 ਕਿਲੋ</h3>
+    <p class="price">₹1500</p>
+    <button onclick="alert('1 ਕਿਲੋ ਘਿਓ ਚੁਣਿਆ ਗਿਆ')">ਆਰਡਰ ਕਰੋ</button>
+  </div>
+</section>
+<footer>© 2026 ਪਿੰਡ ਦਾ ਦੇਸੀ ਘਿਓ</footer>
+<section style="background:#fff0bd; padding:30px 15px; text-align:center;">
+    <h2 style="color:#24532c;">📞 ਆਰਡਰ ਲਈ ਸੰਪਰਕ ਕਰੋ</h2>
+
+    <p>ਦੇਸੀ ਘਿਓ ਮੰਗਵਾਉਣ ਲਈ ਸਾਨੂੰ ਕਾਲ ਕਰੋ ਜਾਂ WhatsApp ਕਰੋ।</p>
+
+    <p style="font-size:22px; font-weight:bold;">
+        ਆਪਣਾ Contact Number ਇੱਥੇ ਪਾਓ
+    </p>
+
+    <a href="tel:919530511817">
+        <button style="background:#24532c;color:white;padding:14px 22px;border:0;border-radius:8px;">
+            📞 ਹੁਣੇ ਕਾਲ ਕਰੋ
+        </button>
+    </a>
+
+    <a href="https://wa.me/919530511817?text=ਸਤਿ%20ਸ੍ਰੀ%20ਅਕਾਲ%2C%20ਮੈਨੂੰ%20ਦੇਸੀ%20ਘਿਓ%20ਆਰਡਰ%20ਕਰਨਾ%20ਹੈ">
+        <button style="background:#218c45;color:white;padding:14px 22px;border:0;border-radius:8px;margin:10px;">
+            WhatsApp ਆਰਡਰ
+        </button>
+    </a>
+</section>
+
+</body>
+</html>
